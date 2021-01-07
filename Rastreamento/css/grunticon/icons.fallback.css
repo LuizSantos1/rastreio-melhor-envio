@@ -1,0 +1,8 @@
+.btn-large .icon-aftership,
+.icon-aftership-large { background-image: url('png/aftership-large.png'); background-repeat: no-repeat; }
+
+.btn-normal .icon-aftership,
+.icon-aftership-normal { background-image: url('png/aftership-normal.png'); background-repeat: no-repeat; }
+
+.btn-small .icon-aftership,
+.icon-aftership-small { background-image: url('png/aftership-small.png'); background-repeat: no-repeat; }
