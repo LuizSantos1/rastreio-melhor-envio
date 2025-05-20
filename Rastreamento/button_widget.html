@@ -34,7 +34,7 @@
       event.preventDefault();
       var code = document.getElementById('tracking_number').value.trim().replace(/\s+/g, '');
       if (code !== '') {
-        var trackUrl = 'https://www.track123.com/track?trackNos=' + encodeURIComponent(code);
+        var trackUrl = 'https://www.track123.com/track?trackNos=' + code.replace(/^\/+|\/+$/g, '');
         window.open(trackUrl, '_blank');
       }
       return false;
